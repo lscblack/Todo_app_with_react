@@ -9,6 +9,9 @@
 	background: royalblue;
 	color: white;
 	padding: 15px;
+	z-index: 2;
+	position: sticky;
+	top:0px
 }
 .todoform{
 	margin: 50px auto;
@@ -19,11 +22,22 @@
 }
 .alldone{
 display: flex;
+padding-bottom: 40px;
 flex-wrap: wrap;
 }
 .borderForm{
 	padding: 5px;
 	border: 1px solid lightgray;
+
+}
+.tofoFooter{
+	text-align: center;
+	color: #666;
+	padding: 12px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	background: white;
 
 }
 .todoform .todoinput{
