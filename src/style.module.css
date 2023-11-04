@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.header{
+	font-size: 2em;
+	background: royalblue;
+	color: white;
+	padding: 15px;
+}
+.todoform{
+	margin: 50px auto;
+	border: 0px solid lightgray;
+	max-width: 400px;
+	width: 400px;
+	border-radius: 5px;
+}
+.alldone{
+display: flex;
+flex-wrap: wrap;
+}
+.borderForm{
+	padding: 5px;
+	border: 1px solid lightgray;
+
+}
+.todoform .todoinput{
+	margin: 10px auto;
+	width: 100%;
+	padding: 14px;
+	font-size: 1.2em;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+}
+.todoform .todoinput::placeholder{
+	text-align: center;
+	color: grey;
+	font-weight: bold;
+	font-family: 'pacifico',cursive;
+}
+.todoform .todobutton{
+	background: tomato;
+	color: white;
+	width: 100%;
+	font-size: 1.3em;
+	display: block;
+	cursor: pointer;
+	margin-left: auto;
+	padding: 9px;
+	border: 0px solid lightgray;
+	border-radius: 5px;
+	opacity: 0.8;
+}
+.todoform .todobutton:hover{
+	opacity: 1;
+}
+.todoFormHeader{
+	padding: 20px;
+	font-size: 1.6em;
+	text-align: center;
+	color: white;
+	border-radius: 10px 10px 0px 0px;
+	background: royalblue;
+}
+.todolabel{
+	color: #666;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding: 0px;
+	margin: 6px auto;
+	display: block;
+	width: 100%;
+}
+.todowidth{
+	max-width: 600px;
+	width: 600px;
+	margin: auto;
+}
+.todoitem{
+	background: whitesmoke;
+	border: 1px solid lightgray;
+	padding: 12px;
+	border-radius: 10px;
+	text-transform: capitalize;
+	display: flex;
+	margin: 2px auto;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.todoitem:hover{
+	background: rgba(0, 0, 0, 0.1);
+}
+.todoname{
+  color: royalblue;
+  font-size: 1.3em;
+}
+.tododeletebutton{
+	background: tomato;
+	color: white;
+	display: block;
+	cursor: pointer;
+	margin-left: auto;
+	padding: 8px;
+	border: 0px solid lightgray;
+	border-radius: 5px;
+	opacity: 0.8;
+}
+.tododeletebutton:hover{
+	opacity: 1;
+}
+.todoname2{
+	color: tomato;
+}
