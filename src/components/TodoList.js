@@ -9,7 +9,7 @@ const TodoList = ({todoList,setTodoList}) =>{
         		))}
         </>)
 	}else{
-        show = (<><h3 align="center" className={styles.todoname2}>Not Todo Item Found </h3></>)
+        show = (<><h3 align="center" className={styles.todoname2}>Not Todo Item Found.</h3></>)
 	}
 	return(
 		<>

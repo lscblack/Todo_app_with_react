@@ -3,6 +3,7 @@ import Form from './components/Form'
 import TodoList from './components/TodoList'
 import { useState } from 'react'
 import styles from './style.module.css'
+import TodoFooter from './components/TodoFooter'
 function App() {
   //todo list
   const [todoList,setTodoList] = useState([])
@@ -23,6 +24,7 @@ function App() {
       todoList={todoList} 
       setTodoList={setTodoList} />
     </div>
+    <TodoFooter />
     </div>
   );
 }
