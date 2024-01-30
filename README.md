@@ -8,6 +8,8 @@
 This Todo App is a simple web-based application built in React.js, designed for educational purposes. It allows you to manage a list of todo items, view the items, and delete them. The project is structured using a component-based architecture, making it easy to understand and extend for learning React development.
 
 Project by: **Black Devil (L.S.C)**
+## Screen Shot
+![image](https://github.com/lscblack/Todo_app_with_react/assets/141139366/5a7359d1-ae8c-404b-b6da-0c29b45f77ea)
 
 ## Getting Started
 
